@@ -45,6 +45,28 @@ Ensure you have the following installed and configured:
 
 ---
 
+## **Understanding the Contract and Deployment Script**
+
+### **Smart Contract: `Pixel20Penguin.sol`**
+This is an ERC-721 NFT contract that includes several extensions from OpenZeppelin, such as:
+- **`ERC721URIStorage`**: Enables metadata storage for NFTs.
+- **`ERC721Pausable`**: Allows pausing the contract in case of emergencies.
+- **`ERC721Votes`**: Integrates on-chain governance voting capabilities.
+- **`ERC721Burnable`**: Allows token holders to burn (destroy) their tokens.
+- **`Ownable`**: Restricts administrative actions to the contract owner.
+
+The contract allows the owner to:
+- Pause and unpause minting.
+- Mint new NFTs by providing a recipient address and a metadata URI.
+
+### **Deployment Script: `Deploy.s.sol`**
+This script automates the contract deployment using Foundry. It:
+1. Loads environment variables (e.g., `PRIVATE_KEY`).
+2. Deploys the contract using the deployer's wallet.
+3. Outputs the deployed contract address.
+
+---
+
 ## **Deploying the Contract Using Catapulta**
 
 Run the following command to deploy your ERC-721 contract on the Monad testnet using Catapulta (with sponsorship for gas fees):

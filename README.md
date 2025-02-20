@@ -1,4 +1,3 @@
-
 # **Deploying an ERC-721 Smart Contract on Monad Testnet Using Foundry and Catapulta**
 
 This guide walks you through setting up a development environment, deploying an ERC-721 smart contract on the Monad testnet, and verifying it using Catapulta.
@@ -39,7 +38,7 @@ Ensure you have the following installed and configured:
 
 3. **Clone the Repository & Install Dependencies**:
    ```bash
-   git clone https://github.com/your-repo/monad-nft-project.git
+   git clone https://github.com/DaemonBSD/monad-nft-project.git
    cd monad-nft-project
    forge install
    ```
@@ -97,9 +96,20 @@ git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/your-username/monad-nft-project.git
+git remote add origin https://github.com/DaemonBSD/monad-nft-project.git
 git push -u origin main
 ```
+
+---
+
+## **Monad Testnet Ecosystem**
+Here we go devnads :pepe_typing:, straight to the point, TESTNET IS LIVE.  
+- Try it out here: [Monad Testnet](https://testnet.monad.xyz/)  
+- If you're confused go here: [Monad Testnet Onboarding Guide](https://monad.xyz/post/monad-testnet-onboarding-guide)  
+- If you're a devnad, go here: [Monad Developer Docs](https://developers.monad.xyz/)  
+- If you wanna check out the ecosystem, go here: [Monad Ecosystem](https://monad.xyz/ecosystem)  
+- If you wanna see the validators in action, go here: [Monad Validators](https://www.gmonads.com/)  
+- If you wanna check the chain, go here: [Monad Explorer](https://monad-testnet.socialscan.io/)  
 
 ---
 
@@ -120,4 +130,7 @@ Happy coding! 🚀
 
 ---
 
-Agora que o README está pronto na lousa, deseja adicionar mais alguma seção antes de exportá-lo?
+## **Contact Information**
+For questions, feedback, or collaboration opportunities, feel free to reach out:
+- **Twitter/X:** [DaemonB2D](https://x.com/DaemonB2D)
+
